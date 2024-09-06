@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="?/submit" method="post">
+        <label for="name"><b>Username:</b></label><br><br>
+        <input type="text" required><br><br>
+        <label for="gender"><b>Select your gender:</b></label><br>
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label><br>
+            <label>
+                <input type="radio" name="gender" value="female">
+                female
+            </label><br>
+            <label>
+                <input type="radio" name="gender" value="other">
+                other
+            </label><br>
+            
+        </div>
+        <br>
+        <br>
+        <label for="country"><b>Select your Country:</b></label><br>
+        <select id="country" name="country" multiple>
+            <option value="" disabled selected></option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="America">America</option>
+            <option value="ShriLanka">ShriLanka</option>
+            <option value="Japan">Japan</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" value="submit">Submit</button>
+        
+        
+        
+    </form>
+</body>
+</html>
